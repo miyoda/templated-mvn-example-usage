@@ -6,6 +6,9 @@ https://github.com/miyoda/templated-mvn.git
 This example use the template:
 https://github.com/miyoda/templated-example-template.git
 
+The plugin is configured to execute on "compile" phase.
+You can execute only this plugin with:
+>mvn templated:templated
 
 The example copy a file with name "simple-file.txt".
 The example copy a folder with a file with name "simple-folder/simple-file-on-folder.txt"
